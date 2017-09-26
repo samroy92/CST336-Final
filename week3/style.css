@@ -1,0 +1,109 @@
+body {
+	background-color: #ababab;
+}
+h1 {
+	color: #3f3f3f;
+	text-align: center;
+}
+h2 {
+	color: #3f3f3f;
+	text-align: left;
+	font-weight: bold;
+}
+h3 {
+	color: #3f3f3f;
+}
+h4 {
+	color: #3f3f3f;
+}
+#maindiv
+{
+	width: auto;
+	height: 1000px;
+	margin: 50px;
+	border: 5px #3f3f3f;
+	padding: 50px 50px;
+	background-color: #f9f9f9;
+	border-style:dashed;
+}
+
+#subdiv
+{
+	width: 400px;
+	height: auto;
+	margin: 10px auto;
+	border: 5px #8f8f8f;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	position:static;
+}
+#subdiv2
+{
+	width: 400px;
+	height: auto;
+	margin: 10px auto;
+	border: 5px #8f8f8f;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: right;
+	position:static;
+}
+
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+select {
+    width: 90%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    background-color: white;
+    size: 12px;
+    font-size: 12px;
+}
+
+input[type=reset] {
+	background-color: #ffb2b2;
+    border: none;
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+	background-color: red;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    background-color: #f8f8f8;
+    resize: none;
+}

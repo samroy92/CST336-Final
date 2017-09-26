@@ -1,0 +1,88 @@
+body {
+	background-color: #ababab;
+}
+h1 {
+	color: #3f3f3f;
+	text-align: center;
+}
+h2 {
+	color: #3f3f3f;
+	text-align: left;
+	font-weight: bold;
+}
+h3 {
+	color: #3f3f3f;
+}
+h4 {
+	color: #3f3f3f;
+}
+
+small {
+	font-size: 4px;
+}
+
+.one { 
+	background-color: pink;
+}
+
+.three {
+	background-color: cyan;
+}
+
+.seven{
+	background-color: yellow;
+}
+
+.nine {
+	background-color: orange;
+}
+
+table {
+	table-layout: relative;
+	width: 100%;
+
+}
+
+td {
+	padding: 0px;
+	border: black 0px solid;
+}
+
+td:hover {
+	font-size: 15px;
+	padding: 5px;
+	position: absolute;
+	border: black 5px dashed;
+	background-color: white;
+}
+
+#mainwrapper
+{
+	width: 1000px;
+	height: 1300px;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+
+}
+
+#subdiv-main
+{
+	width: 700px;
+	height: auto;
+	margin: 10px auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	float: left;
+
+}
+#subdiv-alt
+{
+	width: 200px;
+	margin: 5px auto;
+	border: black 3px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	float: right;
+}

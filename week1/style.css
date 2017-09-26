@@ -1,0 +1,43 @@
+body {
+	background-color: #ababab;
+}
+h1 {
+	color: #3f3f3f;
+	text-align: center;
+}
+h2 {
+	color: #3f3f3f;
+	text-align: left;
+	font-weight: bold;
+}
+h3 {
+	color: #3f3f3f;
+}
+h4 {
+	color: #3f3f3f;
+}
+#mainwrapper
+{
+	width: 1000px;
+	height: 1000px;
+	margin: 30px auto;
+	border: 20px #3f3f3f;
+	padding: 20px;
+	div-align: center;
+	background-color: #f9f9f9;
+}
+
+#subpicture
+{
+	width: 250px;
+	margin: 50px auto;
+	border: 50px #8f8f8f;
+	padding-right: 50px;
+	padding-left: 50px;
+	float: right;
+}
+
+#subpicture img
+{
+	width: 100%;
+}
